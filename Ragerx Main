@@ -1,0 +1,208 @@
+local RageLibrary = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Button1 = Instance.new("TextButton")
+local Button2 = Instance.new("TextButton")
+local Button3 = Instance.new("TextButton")
+local Button4 = Instance.new("TextButton")
+local Button5 = Instance.new("TextButton")
+local HideUiButton = Instance.new("TextButton")
+local ButtonToggle = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+local credit = Instance.new("TextLabel")
+
+RageLibrary.Name = "RageLibrary"
+RageLibrary.Parent = game.Workspace
+RageLibrary.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+RageLibrary.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = RageLibrary
+Main.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Main.BackgroundTransparency = 0.300
+Main.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Main.Position = UDim2.new(0.436403513, 0, 0.262019217, 0)
+Main.Size = UDim2.new(0.127192989, 0, 0.475961536, 0)
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+Title.BorderColor3 = Color3.fromRGB(163, 163, 163)
+Title.Size = UDim2.new(0.99999994, 0, 0.12626262, 0)
+Title.Font = Enum.Font.Highway
+Title.Text = "Example Library"
+Title.TextColor3 = Color3.fromRGB(245, 148, 22)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Button1.Name = "Button1"
+Button1.Parent = Main
+Button1.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Button1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button1.Position = UDim2.new(0, 0, 0.164141417, 0)
+Button1.Size = UDim2.new(0.99999994, 0, 0.12626262, 0)
+Button1.Font = Enum.Font.Highway
+Button1.Text = "Example Button"
+Button1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button1.TextScaled = true
+Button1.TextSize = 14.000
+Button1.TextWrapped = true
+
+Button2.Name = "Button2"
+Button2.Parent = Main
+Button2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Button2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button2.Position = UDim2.new(0, 0, 0.308080792, 0)
+Button2.Size = UDim2.new(0.99999994, 0, 0.12626262, 0)
+Button2.Font = Enum.Font.Highway
+Button2.Text = "Example Button"
+Button2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button2.TextScaled = true
+Button2.TextSize = 14.000
+Button2.TextWrapped = true
+
+Button3.Name = "Button3"
+Button3.Parent = Main
+Button3.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Button3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button3.Position = UDim2.new(0, 0, 0.454545438, 0)
+Button3.Size = UDim2.new(0.99999994, 0, 0.12626262, 0)
+Button3.Font = Enum.Font.Highway
+Button3.Text = "Example Button"
+Button3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button3.TextScaled = true
+Button3.TextSize = 14.000
+Button3.TextWrapped = true
+
+Button4.Name = "Button4"
+Button4.Parent = Main
+Button4.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Button4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button4.Position = UDim2.new(0, 0, 0.598484814, 0)
+Button4.Size = UDim2.new(0.99999994, 0, 0.12626262, 0)
+Button4.Font = Enum.Font.Highway
+Button4.Text = "Example Button"
+Button4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button4.TextScaled = true
+Button4.TextSize = 14.000
+Button4.TextWrapped = true
+
+Button5.Name = "Button5"
+Button5.Parent = Main
+Button5.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Button5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button5.Position = UDim2.new(0, 0, 0.74242419, 0)
+Button5.Size = UDim2.new(0.99999994, 0, 0.12626262, 0)
+Button5.Font = Enum.Font.Highway
+Button5.Text = "Example Button"
+Button5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button5.TextScaled = true
+Button5.TextSize = 14.000
+Button5.TextWrapped = true
+
+HideUiButton.Name = "HideUiButton"
+HideUiButton.Parent = Main
+HideUiButton.BackgroundColor3 = Color3.fromRGB(168, 0, 2)
+HideUiButton.BorderColor3 = Color3.fromRGB(168, 0, 2)
+HideUiButton.Position = UDim2.new(0, 0, 0.911616147, 0)
+HideUiButton.Size = UDim2.new(0.99999994, 0, 0.0883838385, 0)
+HideUiButton.Font = Enum.Font.Highway
+HideUiButton.Text = "Hide UI"
+HideUiButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+HideUiButton.TextScaled = true
+HideUiButton.TextSize = 14.000
+HideUiButton.TextWrapped = true
+
+ButtonToggle.Name = "ButtonToggle"
+ButtonToggle.Parent = RageLibrary
+ButtonToggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ButtonToggle.Position = UDim2.new(0.471491218, 0, 0.0396634638, 0)
+ButtonToggle.Size = UDim2.new(0.0562865511, 0, 0.0901442319, 0)
+ButtonToggle.Visible = false
+ButtonToggle.Image = "rbxassetid://1014915185" --- Icon Toggle (must be a roblox decal)
+
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = ButtonToggle
+
+credit.Name = "credit"
+credit.Parent = ButtonToggle
+credit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credit.BackgroundTransparency = 1.000
+credit.Position = UDim2.new(-8.37662315, 0, 10.373333, 0)
+credit.Size = UDim2.new(1.94805193, 0, 0.280000001, 0)
+credit.Font = Enum.Font.Highway
+credit.Text = "Ragerx Library" --- Show respect to the creator by not deleting this!
+credit.TextColor3 = Color3.fromRGB(255, 0, 0)
+credit.TextScaled = true
+credit.TextSize = 14.000
+credit.TextWrapped = true
+
+--- Modifiers!
+
+local function NZHK_fake_script() -- Button1.LocalScript 
+	local script = Instance.new('LocalScript', Button1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--- Code Here
+	end)
+end
+coroutine.wrap(NZHK_fake_script)()
+local function CXWO_fake_script() -- Button2.LocalScript 
+	local script = Instance.new('LocalScript', Button2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--- Code Here
+	end)
+end
+coroutine.wrap(CXWO_fake_script)()
+local function ACQBIA_fake_script() -- Button3.LocalScript 
+	local script = Instance.new('LocalScript', Button3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--- Code Here
+	end)
+end
+coroutine.wrap(ACQBIA_fake_script)()
+local function BFTVFGF_fake_script() -- Button4.LocalScript 
+	local script = Instance.new('LocalScript', Button4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--- Code Here
+	end)
+end
+coroutine.wrap(BFTVFGF_fake_script)()
+local function SXOKEV_fake_script() -- Button5.LocalScript 
+	local script = Instance.new('LocalScript', Button5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--- Code Here
+	end)
+end
+coroutine.wrap(SXOKEV_fake_script)()
+local function AFVO_fake_script() -- HideUiButton.LocalScript 
+	local script = Instance.new('LocalScript', HideUiButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.ButtonToggle.Visible = true
+	end)
+end
+coroutine.wrap(AFVO_fake_script)()
+local function UZRUUV_fake_script() -- ButtonToggle.LocalScript 
+	local script = Instance.new('LocalScript', ButtonToggle)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Visible = false
+		script.Parent.Parent.Main.Visible = true
+	end)
+end
+coroutine.wrap(UZRUUV_fake_script)()
+
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+Notification:Notify(
+	{Title = "Credits", Description = "UI Library were made by Rage Exploits"},
+	{OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+)
