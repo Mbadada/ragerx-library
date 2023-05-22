@@ -1,0 +1,314 @@
+local Ragerx = Instance.new("ScreenGui")
+local ToggleButton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+local MainLib = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Tab1 = Instance.new("TextButton")
+local ToggleButton2 = Instance.new("TextButton")
+local Tab2 = Instance.new("TextButton")
+local Frame_Tab1 = Instance.new("Frame")
+local Button = Instance.new("TextButton")
+local Button_2 = Instance.new("TextButton")
+local Button_3 = Instance.new("TextButton")
+local Button_4 = Instance.new("TextButton")
+local Frame_Tab2 = Instance.new("Frame")
+local Button_5 = Instance.new("TextButton")
+local Button_6 = Instance.new("TextButton")
+local Button_7 = Instance.new("TextButton")
+local Button_8 = Instance.new("TextButton")
+
+
+Ragerx.Name = "Ragerx"
+Ragerx.Parent = game.CoreGui
+Ragerx.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Ragerx.ResetOnSpawn = false
+
+ToggleButton.Name = "ToggleButton"
+ToggleButton.Parent = Ragerx
+ToggleButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+ToggleButton.Position = UDim2.new(0.476050138, 0, 0.0543209873, 0)
+ToggleButton.Size = UDim2.new(0.0478997789, 0, 0.0790123492, 0)
+ToggleButton.Image = "rbxassetid://7992557358"
+
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = ToggleButton
+
+MainLib.Name = "MainLib"
+MainLib.Parent = Ragerx
+MainLib.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+MainLib.BorderColor3 = Color3.fromRGB(50, 50, 50)
+MainLib.Position = UDim2.new(0.320560068, 0, 0.301234573, 0)
+MainLib.Size = UDim2.new(0.358142972, 0, 0.397530854, 0)
+
+Title.Name = "Title"
+Title.Parent = MainLib
+Title.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+Title.BorderColor3 = Color3.fromRGB(62, 62, 62)
+Title.Size = UDim2.new(1, 0, 0.127329186, 0)
+Title.Font = Enum.Font.Nunito
+Title.Text = "Example Title"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+Tab1.Name = "Tab1"
+Tab1.Parent = MainLib
+Tab1.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Tab1.BorderColor3 = Color3.fromRGB(44, 44, 44)
+Tab1.Position = UDim2.new(0, 0, 0.127329186, 0)
+Tab1.Size = UDim2.new(0.397119343, 0, 0.155279502, 0)
+Tab1.Font = Enum.Font.Nunito
+Tab1.Text = "Tab1"
+Tab1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tab1.TextScaled = true
+Tab1.TextSize = 14.000
+Tab1.TextWrapped = true
+
+ToggleButton2.Name = "ToggleButton2"
+ToggleButton2.Parent = MainLib
+ToggleButton2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton2.Position = UDim2.new(0.397119343, 0, 0.127329186, 0)
+ToggleButton2.Size = UDim2.new(0.205761313, 0, 0.155279502, 0)
+ToggleButton2.Font = Enum.Font.Unknown
+ToggleButton2.Text = "X"
+ToggleButton2.TextColor3 = Color3.fromRGB(255, 0, 0)
+ToggleButton2.TextScaled = true
+ToggleButton2.TextSize = 14.000
+ToggleButton2.TextWrapped = true
+
+Tab2.Name = "Tab2"
+Tab2.Parent = MainLib
+Tab2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Tab2.BorderColor3 = Color3.fromRGB(44, 44, 44)
+Tab2.Position = UDim2.new(0.602880657, 0, 0.127329186, 0)
+Tab2.Size = UDim2.new(0.397119343, 0, 0.155279502, 0)
+Tab2.Font = Enum.Font.Nunito
+Tab2.Text = "Tab2"
+Tab2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tab2.TextScaled = true
+Tab2.TextSize = 14.000
+Tab2.TextWrapped = true
+
+Frame_Tab1.Name = "Frame_Tab1"
+Frame_Tab1.Parent = MainLib
+Frame_Tab1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_Tab1.BackgroundTransparency = 1.000
+Frame_Tab1.Position = UDim2.new(0.00205761311, 0, 0.282608688, 0)
+Frame_Tab1.Size = UDim2.new(0.995884776, 0, 0.714285731, 0)
+
+Button.Name = "Button"
+Button.Parent = Frame_Tab1
+Button.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+Button.BorderColor3 = Color3.fromRGB(163, 163, 163)
+Button.Position = UDim2.new(0.200413227, 0, 0.0608695634, 0)
+Button.Size = UDim2.new(0.599173546, 0, 0.152173907, 0)
+Button.Font = Enum.Font.Nunito
+Button.Text = "ExampleButton"
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+Button_2.Name = "Button"
+Button_2.Parent = Frame_Tab1
+Button_2.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+Button_2.BorderColor3 = Color3.fromRGB(163, 163, 163)
+Button_2.Position = UDim2.new(0.200413227, 0, 0.313043445, 0)
+Button_2.Size = UDim2.new(0.599173546, 0, 0.152173907, 0)
+Button_2.Font = Enum.Font.Nunito
+Button_2.Text = "ExampleButton"
+Button_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_2.TextScaled = true
+Button_2.TextSize = 14.000
+Button_2.TextWrapped = true
+
+Button_3.Name = "Button"
+Button_3.Parent = Frame_Tab1
+Button_3.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+Button_3.BorderColor3 = Color3.fromRGB(163, 163, 163)
+Button_3.Position = UDim2.new(0.200413227, 0, 0.556521714, 0)
+Button_3.Size = UDim2.new(0.599173546, 0, 0.152173907, 0)
+Button_3.Font = Enum.Font.Nunito
+Button_3.Text = "ExampleButton"
+Button_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_3.TextScaled = true
+Button_3.TextSize = 14.000
+Button_3.TextWrapped = true
+
+Button_4.Name = "Button"
+Button_4.Parent = Frame_Tab1
+Button_4.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+Button_4.BorderColor3 = Color3.fromRGB(163, 163, 163)
+Button_4.Position = UDim2.new(0.200413227, 0, 0.786956489, 0)
+Button_4.Size = UDim2.new(0.599173546, 0, 0.152173907, 0)
+Button_4.Font = Enum.Font.Nunito
+Button_4.Text = "ExampleButton"
+Button_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_4.TextScaled = true
+Button_4.TextSize = 14.000
+Button_4.TextWrapped = true
+
+Frame_Tab2.Name = "Frame_Tab2"
+Frame_Tab2.Parent = MainLib
+Frame_Tab2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_Tab2.BackgroundTransparency = 1.000
+Frame_Tab2.Position = UDim2.new(0.00205761311, 0, 0.282608688, 0)
+Frame_Tab2.Size = UDim2.new(0.995884776, 0, 0.714285731, 0)
+Frame_Tab2.Visible = false
+
+Button_5.Name = "Button"
+Button_5.Parent = Frame_Tab2
+Button_5.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+Button_5.BorderColor3 = Color3.fromRGB(163, 163, 163)
+Button_5.Position = UDim2.new(0.200413227, 0, 0.0608695634, 0)
+Button_5.Size = UDim2.new(0.599173546, 0, 0.152173907, 0)
+Button_5.Font = Enum.Font.Nunito
+Button_5.Text = "ExampleButton"
+Button_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_5.TextScaled = true
+Button_5.TextSize = 14.000
+Button_5.TextWrapped = true
+
+Button_6.Name = "Button"
+Button_6.Parent = Frame_Tab2
+Button_6.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+Button_6.BorderColor3 = Color3.fromRGB(163, 163, 163)
+Button_6.Position = UDim2.new(0.200413227, 0, 0.313043445, 0)
+Button_6.Size = UDim2.new(0.599173546, 0, 0.152173907, 0)
+Button_6.Font = Enum.Font.Nunito
+Button_6.Text = "ExampleButton"
+Button_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_6.TextScaled = true
+Button_6.TextSize = 14.000
+Button_6.TextWrapped = true
+
+Button_7.Name = "Button"
+Button_7.Parent = Frame_Tab2
+Button_7.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+Button_7.BorderColor3 = Color3.fromRGB(163, 163, 163)
+Button_7.Position = UDim2.new(0.200413227, 0, 0.556521714, 0)
+Button_7.Size = UDim2.new(0.599173546, 0, 0.152173907, 0)
+Button_7.Font = Enum.Font.Nunito
+Button_7.Text = "ExampleButton"
+Button_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_7.TextScaled = true
+Button_7.TextSize = 14.000
+Button_7.TextWrapped = true
+
+Button_8.Name = "Button"
+Button_8.Parent = Frame_Tab2
+Button_8.BackgroundColor3 = Color3.fromRGB(163, 163, 163)
+Button_8.BorderColor3 = Color3.fromRGB(163, 163, 163)
+Button_8.Position = UDim2.new(0.200413227, 0, 0.786956489, 0)
+Button_8.Size = UDim2.new(0.599173546, 0, 0.152173907, 0)
+Button_8.Font = Enum.Font.Nunito
+Button_8.Text = "ExampleButton"
+Button_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_8.TextScaled = true
+Button_8.TextSize = 14.000
+Button_8.TextWrapped = true
+
+-- Functions: Modified them to make your own gui!
+
+local function TRJP_fake_script() -- ToggleButton.FunctionOnClick 
+	local script = Instance.new('LocalScript', ToggleButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Visible = false
+		script.Parent.Parent.MainLib.Visible = true
+	end)
+end
+coroutine.wrap(TRJP_fake_script)()
+local function KFAEU_fake_script() -- Tab1.TabFunction 
+	local script = Instance.new('LocalScript', Tab1)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame_Tab1.Visible = true
+		script.Parent.Parent.Frame_Tab2.Visible = false
+	end)
+end
+coroutine.wrap(KFAEU_fake_script)()
+local function UOYWPSJ_fake_script() -- ToggleButton2.FunctionOnClick 
+	local script = Instance.new('LocalScript', ToggleButton2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.ToggleButton.Visible = true
+		script.Parent.Parent.Parent.MainLib.Visible = false
+	end)
+end
+coroutine.wrap(UOYWPSJ_fake_script)()
+local function JWHRUZR_fake_script() -- Tab2.TabFunction 
+	local script = Instance.new('LocalScript', Tab2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame_Tab1.Visible = false
+		script.Parent.Parent.Frame_Tab2.Visible = true
+	end)
+end
+coroutine.wrap(JWHRUZR_fake_script)()
+local function PXSQQ_fake_script() -- Button.FunctionButton 
+	local script = Instance.new('LocalScript', Button)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--- Code
+	end)
+end
+coroutine.wrap(PXSQQ_fake_script)()
+local function DJRU_fake_script() -- Button_2.FunctionButton 
+	local script = Instance.new('LocalScript', Button_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--- Code
+	end)
+end
+coroutine.wrap(DJRU_fake_script)()
+local function ZATJN_fake_script() -- Button_3.FunctionButton 
+	local script = Instance.new('LocalScript', Button_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--- Code
+	end)
+end
+coroutine.wrap(ZATJN_fake_script)()
+local function TRKZF_fake_script() -- Button_4.FunctionButton 
+	local script = Instance.new('LocalScript', Button_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--- Code
+	end)
+end
+coroutine.wrap(TRKZF_fake_script)()
+local function SXNRLUH_fake_script() -- Button_5.FunctionButton 
+	local script = Instance.new('LocalScript', Button_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--- Code
+	end)
+end
+coroutine.wrap(SXNRLUH_fake_script)()
+local function PBTCMJM_fake_script() -- Button_6.FunctionButton 
+	local script = Instance.new('LocalScript', Button_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--- Code
+	end)
+end
+coroutine.wrap(PBTCMJM_fake_script)()
+local function WUEZ_fake_script() -- Button_7.FunctionButton 
+	local script = Instance.new('LocalScript', Button_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--- Code
+	end)
+end
+coroutine.wrap(WUEZ_fake_script)()
+local function GGOLPA_fake_script() -- Button_8.FunctionButton 
+	local script = Instance.new('LocalScript', Button_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		--- Code
+	end)
+end
+coroutine.wrap(GGOLPA_fake_script)()
