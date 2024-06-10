@@ -1,0 +1,726 @@
+local Math = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Title = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local TextLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_2 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local TabButtons = Instance.new("Frame")
+local Button1 = Instance.new("ImageButton")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local Button2 = Instance.new("ImageButton")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local Button3 = Instance.new("ImageButton")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local Button4 = Instance.new("ImageButton")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local EditorFrame = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local EditorBox = Instance.new("TextBox")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local TextButton = Instance.new("TextButton")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local TextButton_2 = Instance.new("TextButton")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
+local TextButton_3 = Instance.new("TextButton")
+local UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
+local HomeFrame = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_5 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_6 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_7 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
+local ScriptHubFrame = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_9 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
+local InfYield = Instance.new("TextButton")
+local UIAspectRatioConstraint_26 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_27 = Instance.new("UIAspectRatioConstraint")
+local ProfileFrame = Instance.new("Frame")
+local TextLabel_10 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_28 = Instance.new("UIAspectRatioConstraint")
+local TextLabel_11 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_29 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_30 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_31 = Instance.new("UIAspectRatioConstraint")
+local Toggle = Instance.new("Frame")
+local Buton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+local UIAspectRatioConstraint_32 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_33 = Instance.new("UIAspectRatioConstraint")
+
+Math.Name = "Math"
+Math.Parent = game.CoreGui
+Math.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Math.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = Math
+Main.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.214702457, 0, 0.160493821, 0)
+Main.Size = UDim2.new(0.570595086, 0, 0.679012358, 0)
+Main.Visible = false
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(1, 0, 0.109090909, 0)
+
+ImageLabel.Parent = Title
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0163599178, 0, 0.0833333358, 0)
+ImageLabel.Size = UDim2.new(0.0613496937, 0, 0.805555582, 0)
+ImageLabel.Image = "rbxassetid://14187686429"
+
+UIAspectRatioConstraint.Parent = ImageLabel
+UIAspectRatioConstraint.AspectRatio = 1.034
+
+TextLabel.Parent = Title
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0899795517, 0, 0.166666672, 0)
+TextLabel.Size = UDim2.new(0.408997953, 0, 0.666666687, 0)
+TextLabel.Font = Enum.Font.Arial
+TextLabel.Text = "BloxLauncher"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+UIAspectRatioConstraint_2.Parent = TextLabel
+UIAspectRatioConstraint_2.AspectRatio = 8.333
+
+TextLabel_2.Parent = Title
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.568507135, 0, 0.166666672, 0)
+TextLabel_2.Size = UDim2.new(0.408997953, 0, 0.666666687, 0)
+TextLabel_2.Font = Enum.Font.Arial
+TextLabel_2.Text = "Beta | v0.01"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Right
+
+UIAspectRatioConstraint_3.Parent = TextLabel_2
+UIAspectRatioConstraint_3.AspectRatio = 8.333
+
+UIAspectRatioConstraint_4.Parent = Title
+UIAspectRatioConstraint_4.AspectRatio = 13.583
+
+TabButtons.Name = "TabButtons"
+TabButtons.Parent = Main
+TabButtons.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+TabButtons.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TabButtons.BorderSizePixel = 0
+TabButtons.Position = UDim2.new(0, 0, 0.109090909, 0)
+TabButtons.Size = UDim2.new(0.149284258, 0, 0.890909076, 0)
+
+Button1.Name = "Button1"
+Button1.Parent = TabButtons
+Button1.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Button1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button1.BorderSizePixel = 0
+Button1.Size = UDim2.new(1, 0, 0.234693885, 0)
+Button1.Image = "rbxassetid://11433532654"
+
+UIAspectRatioConstraint_5.Parent = Button1
+UIAspectRatioConstraint_5.AspectRatio = 1.058
+
+Button2.Name = "Button2"
+Button2.Parent = TabButtons
+Button2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Button2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button2.BorderSizePixel = 0
+Button2.Position = UDim2.new(0, 0, 0.234693885, 0)
+Button2.Size = UDim2.new(1, 0, 0.234693885, 0)
+Button2.Image = "rbxassetid://11419706143"
+
+UIAspectRatioConstraint_6.Parent = Button2
+UIAspectRatioConstraint_6.AspectRatio = 1.058
+
+Button3.Name = "Button3"
+Button3.Parent = TabButtons
+Button3.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Button3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button3.BorderSizePixel = 0
+Button3.Position = UDim2.new(0, 0, 0.46938777, 0)
+Button3.Size = UDim2.new(1, 0, 0.234693885, 0)
+Button3.Image = "rbxassetid://11433533177"
+
+UIAspectRatioConstraint_7.Parent = Button3
+UIAspectRatioConstraint_7.AspectRatio = 1.058
+
+Button4.Name = "Button4"
+Button4.Parent = TabButtons
+Button4.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Button4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button4.BorderSizePixel = 0
+Button4.Position = UDim2.new(0, 0, 0.704081655, 0)
+Button4.Size = UDim2.new(1, 0, 0.234693885, 0)
+Button4.Image = "rbxassetid://11432831839"
+
+UIAspectRatioConstraint_8.Parent = Button4
+UIAspectRatioConstraint_8.AspectRatio = 1.058
+
+UIAspectRatioConstraint_9.Parent = TabButtons
+UIAspectRatioConstraint_9.AspectRatio = 0.248
+
+EditorFrame.Name = "EditorFrame"
+EditorFrame.Parent = Main
+EditorFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+EditorFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EditorFrame.BorderSizePixel = 0
+EditorFrame.Position = UDim2.new(0.149284258, 0, 0.109090909, 0)
+EditorFrame.Size = UDim2.new(0.850715756, 0, 0.890909076, 0)
+
+TextLabel_3.Parent = EditorFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.036057692, 0, 0.0306122452, 0)
+TextLabel_3.Size = UDim2.new(0.480769217, 0, 0.170068026, 0)
+TextLabel_3.Font = Enum.Font.Arial
+TextLabel_3.Text = "Execution:"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+UIAspectRatioConstraint_10.Parent = TextLabel_3
+UIAspectRatioConstraint_10.AspectRatio = 4.000
+
+EditorBox.Name = "EditorBox"
+EditorBox.Parent = EditorFrame
+EditorBox.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+EditorBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+EditorBox.BorderSizePixel = 0
+EditorBox.Position = UDim2.new(0.03125, 0, 0.234693885, 0)
+EditorBox.Size = UDim2.new(0.9375, 0, 0.615646243, 0)
+EditorBox.Font = Enum.Font.Arial
+EditorBox.Text = ""
+EditorBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+EditorBox.TextScaled = true
+EditorBox.TextSize = 14.000
+EditorBox.TextWrapped = true
+
+UIAspectRatioConstraint_11.Parent = EditorBox
+UIAspectRatioConstraint_11.AspectRatio = 2.155
+
+ImageLabel_2.Parent = EditorFrame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.036057692, 0, 0.87414968, 0)
+ImageLabel_2.Size = UDim2.new(0.057692308, 0, 0.0918367356, 0)
+ImageLabel_2.Image = "rbxassetid://11423157473"
+
+UIAspectRatioConstraint_12.Parent = ImageLabel_2
+UIAspectRatioConstraint_12.AspectRatio = 0.889
+
+TextButton.Parent = EditorFrame
+TextButton.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.09375, 0, 0.87414968, 0)
+TextButton.Size = UDim2.new(0.28125, 0, 0.0918367356, 0)
+TextButton.Font = Enum.Font.Arial
+TextButton.Text = "Execute"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UIAspectRatioConstraint_13.Parent = TextButton
+UIAspectRatioConstraint_13.AspectRatio = 4.333
+
+TextButton_2.Parent = EditorFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.6875, 0, 0.87414968, 0)
+TextButton_2.Size = UDim2.new(0.28125, 0, 0.0918367356, 0)
+TextButton_2.Font = Enum.Font.Arial
+TextButton_2.Text = "Clear"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UIAspectRatioConstraint_14.Parent = TextButton_2
+UIAspectRatioConstraint_14.AspectRatio = 4.333
+
+ImageLabel_3.Parent = EditorFrame
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.625, 0, 0.87414968, 0)
+ImageLabel_3.Size = UDim2.new(0.0625, 0, 0.0918367356, 0)
+ImageLabel_3.Image = "rbxassetid://11430231340"
+
+UIAspectRatioConstraint_15.Parent = ImageLabel_3
+UIAspectRatioConstraint_15.AspectRatio = 0.963
+
+TextButton_3.Parent = EditorFrame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.402972013, 0, 0.87414968, 0)
+TextButton_3.Size = UDim2.new(0.18990384, 0, 0.0918367356, 0)
+TextButton_3.Font = Enum.Font.Arial
+TextButton_3.Text = "Kill Client"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UIAspectRatioConstraint_16.Parent = TextButton_3
+UIAspectRatioConstraint_16.AspectRatio = 2.926
+
+UIAspectRatioConstraint_17.Parent = EditorFrame
+UIAspectRatioConstraint_17.AspectRatio = 1.415
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = Main
+HomeFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+HomeFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+HomeFrame.BorderSizePixel = 0
+HomeFrame.Position = UDim2.new(0.149284258, 0, 0.109090909, 0)
+HomeFrame.Size = UDim2.new(0.850715756, 0, 0.890909076, 0)
+HomeFrame.Visible = false
+
+TextLabel_4.Parent = HomeFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.03125, 0, 0, 0)
+TextLabel_4.Size = UDim2.new(0.480769217, 0, 0.170068026, 0)
+TextLabel_4.Font = Enum.Font.Arial
+TextLabel_4.Text = "Latest Update:"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+UIAspectRatioConstraint_18.Parent = TextLabel_4
+UIAspectRatioConstraint_18.AspectRatio = 4.000
+
+TextLabel_5.Parent = HomeFrame
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.03125, 0, 0.170068026, 0)
+TextLabel_5.Size = UDim2.new(0.899038434, 0, 0.336734682, 0)
+TextLabel_5.Font = Enum.Font.Arial
+TextLabel_5.Text = "- Added Settings\\n- Execution Quality Improved\\n- Script Hub Wider"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
+
+UIAspectRatioConstraint_19.Parent = TextLabel_5
+UIAspectRatioConstraint_19.AspectRatio = 3.778
+
+TextLabel_6.Parent = HomeFrame
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.03125, 0, 0.513605416, 0)
+TextLabel_6.Size = UDim2.new(0.480769217, 0, 0.146258503, 0)
+TextLabel_6.Font = Enum.Font.Arial
+TextLabel_6.Text = "About Us:"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
+
+UIAspectRatioConstraint_20.Parent = TextLabel_6
+UIAspectRatioConstraint_20.AspectRatio = 4.651
+
+TextLabel_7.Parent = HomeFrame
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.03125, 0, 0.673469365, 0)
+TextLabel_7.Size = UDim2.new(0.899038434, 0, 0.292517006, 0)
+TextLabel_7.Font = Enum.Font.Arial
+TextLabel_7.Text = "BloxLauncher was built by RageWare. Let its client enjoy scripting with an ultimate."
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
+
+UIAspectRatioConstraint_21.Parent = TextLabel_7
+UIAspectRatioConstraint_21.AspectRatio = 4.349
+
+UIAspectRatioConstraint_22.Parent = HomeFrame
+UIAspectRatioConstraint_22.AspectRatio = 1.415
+
+ScriptHubFrame.Name = "ScriptHubFrame"
+ScriptHubFrame.Parent = Main
+ScriptHubFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ScriptHubFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScriptHubFrame.BorderSizePixel = 0
+ScriptHubFrame.Position = UDim2.new(0.149284258, 0, 0.109090909, 0)
+ScriptHubFrame.Size = UDim2.new(0.850715756, 0, 0.890909076, 0)
+ScriptHubFrame.Visible = false
+
+TextLabel_8.Parent = ScriptHubFrame
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.03125, 0, 0, 0)
+TextLabel_8.Size = UDim2.new(0.480769217, 0, 0.170068026, 0)
+TextLabel_8.Font = Enum.Font.Arial
+TextLabel_8.Text = "Script Library:"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
+
+UIAspectRatioConstraint_23.Parent = TextLabel_8
+UIAspectRatioConstraint_23.AspectRatio = 4.000
+
+ImageLabel_4.Parent = ScriptHubFrame
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.03125, 0, 0.170068026, 0)
+ImageLabel_4.Size = UDim2.new(0.348557681, 0, 0.244897962, 0)
+ImageLabel_4.Image = "rbxassetid://10877943326"
+
+UIAspectRatioConstraint_24.Parent = ImageLabel_4
+UIAspectRatioConstraint_24.AspectRatio = 2.014
+
+TextLabel_9.Parent = ScriptHubFrame
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.03125, 0, 0.414965987, 0)
+TextLabel_9.Size = UDim2.new(0.348557681, 0, 0.170068026, 0)
+TextLabel_9.Font = Enum.Font.Arial
+TextLabel_9.Text = "Infinite Yield offers an exploit hub thats wider!"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 14.000
+TextLabel_9.TextWrapped = true
+TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
+
+UIAspectRatioConstraint_25.Parent = TextLabel_9
+UIAspectRatioConstraint_25.AspectRatio = 2.900
+
+InfYield.Name = "InfYield"
+InfYield.Parent = ScriptHubFrame
+InfYield.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+InfYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfYield.BorderSizePixel = 0
+InfYield.Position = UDim2.new(0.03125, 0, 0.585034013, 0)
+InfYield.Size = UDim2.new(0.348557681, 0, 0.119047619, 0)
+InfYield.Font = Enum.Font.Arial
+InfYield.Text = "Run Script"
+InfYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfYield.TextScaled = true
+InfYield.TextSize = 14.000
+InfYield.TextWrapped = true
+
+UIAspectRatioConstraint_26.Parent = InfYield
+UIAspectRatioConstraint_26.AspectRatio = 4.143
+
+UIAspectRatioConstraint_27.Parent = ScriptHubFrame
+UIAspectRatioConstraint_27.AspectRatio = 1.415
+
+ProfileFrame.Name = "ProfileFrame"
+ProfileFrame.Parent = Main
+ProfileFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ProfileFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ProfileFrame.BorderSizePixel = 0
+ProfileFrame.Position = UDim2.new(0.149284258, 0, 0.109090909, 0)
+ProfileFrame.Size = UDim2.new(0.850715756, 0, 0.890909076, 0)
+ProfileFrame.Visible = false
+
+TextLabel_10.Parent = ProfileFrame
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_10.Font = Enum.Font.Arial
+TextLabel_10.Text = "Profile is still on work, expect this section in the next possible update."
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+UIAspectRatioConstraint_28.Parent = TextLabel_10
+UIAspectRatioConstraint_28.AspectRatio = 1.415
+
+TextLabel_11.Parent = ProfileFrame
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.293269217, 0, 0.0272108838, 0)
+TextLabel_11.Size = UDim2.new(0.331730783, 0, 0.442176878, 0)
+TextLabel_11.Font = Enum.Font.SourceSansBold
+TextLabel_11.Text = ":("
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+UIAspectRatioConstraint_29.Parent = TextLabel_11
+UIAspectRatioConstraint_29.AspectRatio = 1.062
+
+UIAspectRatioConstraint_30.Parent = ProfileFrame
+UIAspectRatioConstraint_30.AspectRatio = 1.415
+
+UIAspectRatioConstraint_31.Parent = Main
+UIAspectRatioConstraint_31.AspectRatio = 1.482
+
+Toggle.Name = "Toggle"
+Toggle.Parent = Math
+Toggle.BackgroundColor3 = Color3.fromRGB(92, 154, 144)
+Toggle.BackgroundTransparency = 1.000
+Toggle.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Toggle.BorderSizePixel = 0
+Toggle.Position = UDim2.new(0.457409561, 0, 0.139917701, 0)
+Toggle.Size = UDim2.new(0.0770128369, 0, 0.141975313, 0)
+
+Buton.Name = "Buton"
+Buton.Parent = Toggle
+Buton.BackgroundColor3 = Color3.fromRGB(21, 21, 21)
+Buton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Buton.BorderSizePixel = 0
+Buton.Position = UDim2.new(0.0606060624, 0, 0.0869565234, 0)
+Buton.Size = UDim2.new(0.863636374, 0, 0.811594188, 0)
+Buton.Image = "rbxassetid://14187686429"
+
+UICorner.CornerRadius = UDim.new(1, 0)
+UICorner.Parent = Buton
+
+UIAspectRatioConstraint_32.Parent = Buton
+UIAspectRatioConstraint_32.AspectRatio = 1.018
+
+UIAspectRatioConstraint_33.Parent = Toggle
+UIAspectRatioConstraint_33.AspectRatio = 0.957
+
+-- Scripts:
+
+local function PSTLXHR_fake_script() -- Button1.LocalScript 
+	local script = Instance.new('LocalScript', Button1)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.ProfileFrame.Visible = false
+		script.Parent.Parent.Parent.HomeFrame.Visible = true
+		script.Parent.Parent.Parent.EditorFrame.Visible = false
+		script.Parent.Parent.Parent.ScriptHubFrame.Visible = false
+	end)
+end
+coroutine.wrap(PSTLXHR_fake_script)()
+local function JIVMPGH_fake_script() -- Button2.LocalScript 
+	local script = Instance.new('LocalScript', Button2)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.ProfileFrame.Visible = false
+		script.Parent.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.Parent.EditorFrame.Visible = true
+		script.Parent.Parent.Parent.ScriptHubFrame.Visible = false
+	end)
+end
+coroutine.wrap(JIVMPGH_fake_script)()
+local function QQTNCM_fake_script() -- Button3.LocalScript 
+	local script = Instance.new('LocalScript', Button3)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.ProfileFrame.Visible = false
+		script.Parent.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.Parent.EditorFrame.Visible = false
+		script.Parent.Parent.Parent.ScriptHubFrame.Visible = true
+	end)
+end
+coroutine.wrap(QQTNCM_fake_script)()
+local function QQBLWAF_fake_script() -- Button4.LocalScript 
+	local script = Instance.new('LocalScript', Button4)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.ProfileFrame.Visible = true
+		script.Parent.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.Parent.EditorFrame.Visible = false
+		script.Parent.Parent.Parent.ScriptHubFrame.Visible = false
+	end)
+end
+coroutine.wrap(QQBLWAF_fake_script)()
+local function HLINUS_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		loadstring(script.Parent.Parent.EditorBox.Text)()
+	end)
+end
+coroutine.wrap(HLINUS_fake_script)()
+local function DZVGXJ_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.EditorBox.Text = ""
+	end)
+end
+coroutine.wrap(DZVGXJ_fake_script)()
+local function YJJS_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local kickmsg = "Roblox Client Killed By BloxLauncher."
+		game.Players.LocalPlayer:Kick(kickmsg)
+	end)
+end
+coroutine.wrap(YJJS_fake_script)()
+local function ZZVCN_fake_script() -- InfYield.LocalScript 
+	local script = Instance.new('LocalScript', InfYield)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end)
+end
+coroutine.wrap(ZZVCN_fake_script)()
+local function IPSJ_fake_script() -- Main.Dragify 
+	local script = Instance.new('LocalScript', Main)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(IPSJ_fake_script)()
+local function RAULBJ_fake_script() -- Buton.LocalScript 
+	local script = Instance.new('LocalScript', Buton)
+
+	local femr = script.Parent.Parent.Parent.Main
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		femr.Visible = not femr.Visible
+	end)
+end
+coroutine.wrap(RAULBJ_fake_script)()
+local function NZXCRO_fake_script() -- Toggle.Dragify 
+	local script = Instance.new('LocalScript', Toggle)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(NZXCRO_fake_script)()
